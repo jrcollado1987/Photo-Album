@@ -1,15 +1,19 @@
 {
-	"nativescript": {
-		"id": "org.nativescript.PhotoAlbumNativeCode",
-		"tns-android": {
-			"version": "1.5.1"
-		},
-		"tns-ios": {
-			"version": "1.5.2"
-		}
-	},
+    "nativescript": {
+        "id": "org.nativescript.PhotoAlbumNativeCode",
+        "tns-android": {
+            "version": "1.5.1"
+        },
+        "tns-ios": {
+            "version": "1.5.2"
+        }
+    },
     "dependencies": {
-		"tns-core-modules": "1.5.1"
+        "tns-core-modules": "1.5.1",
+        "nativescript-push-notifications": "0.0.14",
+        "nativescript-social-share": "1.1.2",
+        "nativescript-background-http": "0.0.1",
+        "nativescript-telerik-analytics": "1.0.0"
     },
     "devDependencies": {}
 }
